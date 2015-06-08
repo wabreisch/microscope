@@ -1,5 +1,5 @@
-# microscope
-The microscope project for Discover Meteor book
+# Microscope
+**Microscope** project for the [Discover Meteor](https://www.discovermeteor.com/) book.
 
 ## Useful Links
 * [JavaScript for Meteor](https://www.discovermeteor.com/blog/javascript-for-meteor/)
