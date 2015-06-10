@@ -1,7 +1,7 @@
 Template.postEdit.events({
 	'submit form': function (e) {
 
-		var currentPost = this._id;
+		var currentPostId = this._id;
 
 		var postProperties = {
 			url: $(e.target).find('[name=url]').val(),
