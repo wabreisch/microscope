@@ -20,7 +20,8 @@ if (Posts.find().count() === 0) {
     userId: jeff._id,
     author: jeff.profile.name,
     url: 'http://sachagreif.com/introducing-telescope/',
-    submitted: new Date(now - 7 * 3600 * 1000)
+    submitted: new Date(now - 7 * 3600 * 1000),
+    commentsCount: 2
   });
 
   Comments.insert({
